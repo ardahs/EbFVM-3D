@@ -32,6 +32,14 @@ For theoretical background and formulation details, see:
   Suhaib Ardah, Francisco J. Profito, Tom Reddyhoff and Daniele Dini (2023).  
   Further details on the governing equations in curvilinear coordinates.
 
+## External mesh data
+
+Due to GitHub file-size limitations, the full mesh files are hosted separately on Zenodo. These files are required to reproduce the benchmark results reported in the manuscript.
+
+**Zenodo DOI:**  
+
+Please download the dataset and place the mesh files in your local working directory before running the full cases.
+
 ## Repository structure
 
 - `src/`     — Core solver and numerical routines  
@@ -45,8 +53,9 @@ For theoretical background and formulation details, see:
 
 ## Quick start
 
-1. Set the geometry, analysis type, and convergence tolerance in `main.m`
-2. Run `main.m`
+1. Download the required mesh files from Zenodo and place them in the appropriate local directory.
+2. Set the geometry, analysis type, and convergence tolerance in `main.m`
+3. Run `main.m`
 
 ## Options
 
