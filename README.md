@@ -1,4 +1,4 @@
-# 3D Element-based Finite Volume Method (EbFVM) for Interfacial Transport Problems
+# 3-D Element-based Finite Volume Method (EbFVM) for Interfacial Transport Problems
 
 ## Overview
 
