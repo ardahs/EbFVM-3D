@@ -9,7 +9,7 @@ In its current form, the code is configured for lubrication simulations in misal
 This code is associated with the paper:
 
 **Modelling Heterogeneous Interfaces using Element-based Finite Volumes**
-Suhaib Ardah, Francisco J. Profito and Daniele Dini (2026).
+by Suhaib Ardah, Francisco J. Profito and Daniele Dini (2026).
 
 It includes the core solver, benchmark cases, and reference material required to reproduce the results reported in the manuscript and to extend the framework to new geometries and applications.
 
