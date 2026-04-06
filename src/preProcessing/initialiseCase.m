@@ -31,7 +31,14 @@ function InfoSim = initialiseCase(geometry, analysisType, toleranceError)
     fprintf('************************************************************************************************************************************\n');
     fprintf('\n');
 
-%% Load InfoSim structure
+%% Check input file and load InfoSim structure
+    if ~isfile(fileName)
+        error(['Required input file not found: %s\n\n' ...
+               'Please download the benchmark data from Zenodo:\n' ...
+               'https://doi.org/10.5281/zenodo.19432407\n\n' ...
+               'Then place the file in the current working directory or update the file path accordingly.'], fileName);
+    end
+
     S = load(fileName, 'InfoSim');
 
     if ~isfield(S, 'InfoSim')
