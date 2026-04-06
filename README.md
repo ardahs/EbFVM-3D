@@ -36,7 +36,7 @@ For theoretical background and formulation details, see:
 
 Due to GitHub file-size limitations, the full mesh files are hosted separately on Zenodo. These files are required to reproduce the benchmark results reported in the manuscript.
 
-**Zenodo DOI:**  
+**[https://doi.org/10.5281/zenodo.19432407]**  
 
 Please download the dataset and place the mesh files in your local working directory before running the full cases.
 
