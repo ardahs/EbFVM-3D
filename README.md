@@ -9,7 +9,9 @@ In its current form, the code is configured for lubrication simulations in misal
 This code is associated with the paper:
 
 **Modelling Heterogeneous Interfaces using Element-based Finite Volumes**
-by Suhaib Ardah, Francisco J. Profito and Daniele Dini (2026).
+by Suhaib Ardah, Francisco J. Profito and Daniele Dini
+Computer Methods in Applied Mechanics and Engineering (2026)
+[https://doi.org/10.1016/j.cma.2026.118986]
 
 It includes the core solver, benchmark cases, and reference material required to reproduce the results reported in the manuscript and to extend the framework to new geometries and applications.
 
@@ -25,11 +27,13 @@ s.ardah19@imperial.ac.uk
 For theoretical background and formulation details, see:
 
 - **Modelling Heterogeneous Interfaces using Element-based Finite Volumes**
-  Suhaib Ardah, Francisco J. Profito and Daniele Dini (2026).  
+  Suhaib Ardah, Francisco J. Profito and Daniele Dini (2026).
+  [https://doi.org/10.1016/j.cma.2026.118986]
   Main reference for the present 3D implementation.
 
 - **Advanced Modelling of Lubricated Interfaces in General Curvilinear Grids**
-  Suhaib Ardah, Francisco J. Profito, Tom Reddyhoff and Daniele Dini (2023).  
+  Suhaib Ardah, Francisco J. Profito, Tom Reddyhoff and Daniele Dini (2023).
+  [https://doi.org/10.1016/j.triboint.2023.108727] 
   Further details on the governing equations in curvilinear coordinates.
 
 ## External mesh data
