@@ -89,26 +89,26 @@ To reproduce the paper results:
 
 The repository includes predefined geometries for the manuscript cases. However, users may also use the code with other geometries by generating and importing the required mesh data.
 
-Custom meshes can be generated using standard mesh generation and preprocessing software such as:
-	•	Abaqus
-	•	Gmsh
-	•	ANSYS Meshing
-	•	other equivalent software
+Custom meshes can be generated using standard mesh generation and preprocessing software such as: <br>
+	•	Abaqus <br>
+	•	Gmsh <br>
+	•	ANSYS Meshing <br>
+	•	other equivalent software <br>
 
 Required mesh information:
-To use a custom geometry, the mesh input must provide the information required by the EbFVM data structures, including:
-	•	nodal coordinates
-	•	element connectivity
-	•	surrounding-node information
-	•	surrounding-element information
-	•	boundary-condition information associated with nodes and boundary edges
+To use a custom geometry, the mesh input must provide the information required by the EbFVM data structures, including: <br>
+	•	nodal coordinates <br>
+	•	element connectivity <br>
+	•	surrounding-node information <br>
+	•	surrounding-element information <br>
+	•	boundary-condition information associated with nodes and boundary edges <br>
 
 ## Steady-state formulation and transient extensions
 
 The present implementation is formulated for steady-state problems.
 
-However, transient effects can be incorporated in a relatively straightforward manner through the existing source-term structures. In particular:
-	•	transient contributions in the thermal energy equation can be introduced in 'EnergyFluid.m' through: gridCFDNodes_3D.sTS
+However, transient effects can be incorporated in a relatively straightforward manner through the existing source-term structures. In particular: <br>
+	•	transient contributions in the thermal energy equation can be introduced in 'EnergyFluid.m' through: gridCFDNodes_3D.sTS <br>
 	•	transient contributions in the generalised Reynolds equation can be introduced in 'GRE_lubricantTransport.m' through: gridCFDNodes.sT
 
 ## Performance optimisation
