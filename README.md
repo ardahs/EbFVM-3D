@@ -19,19 +19,19 @@ It includes the core solver, benchmark cases, and reference material required to
 
 For questions, suggestions, or collaboration opportunities, please contact:
 
-**Suhaib Ardah** <br>  
+**Suhaib Ardah**  
 s.ardah19@imperial.ac.uk
 
 ## Related publications
 
 For theoretical background and formulation details, see:
 
-- **Modelling Heterogeneous Interfaces using Element-based Finite Volumes**
+- **Modelling Heterogeneous Interfaces using Element-based Finite Volumes** <br>
   Suhaib Ardah, Francisco J. Profito and Daniele Dini (2026). <br>
   [https://doi.org/10.1016/j.cma.2026.118986] <br>
   Main reference for the present 3D implementation.
 
-- **Advanced Modelling of Lubricated Interfaces in General Curvilinear Grids**
+- **Advanced Modelling of Lubricated Interfaces in General Curvilinear Grids** <br>
   Suhaib Ardah, Francisco J. Profito, Tom Reddyhoff and Daniele Dini (2023). <br>
   [https://doi.org/10.1016/j.triboint.2023.108727] <br>
   Further details on the governing equations in curvilinear coordinates.
