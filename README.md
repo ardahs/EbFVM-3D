@@ -10,7 +10,7 @@ This code is associated with the paper:
 
 **Modelling Heterogeneous Interfaces using Element-based Finite Volumes**
 
-by Suhaib Ardah, Francisco J. Profito and Daniele Dini
+by Suhaib Ardah, Francisco J. Profito and Daniele Dini <br>
 Computer Methods in Applied Mechanics and Engineering (2026)
 [https://doi.org/10.1016/j.cma.2026.118986]
 
